@@ -1,0 +1,108 @@
+h1,h2{
+    font-family: calibri;
+    font-style: bold;
+}
+h1{
+    font-size: 26x;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    font-size: 22x;
+    color: forestgreen;
+}
+ol li{
+    color: brown;
+    font-weight: bold;
+    font-family: Arial,sans-serif;
+}
+ul li{
+    color: black;
+    font-weight: normal;
+    font-family: Arial,sans-serif;
+}
+tr{
+    text-align: center;
+}
+tr th{
+    background-color: gray;
+    color: white;
+}
+a[href]{
+    color: blue;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;              
+    border-collapse: collapse;
+    margin: 20px 0;          
+    font-family: Arial, sans-serif;
+    font-size: 16px;          
+    text-align: left;        
+    background-color: #f9f9f9;
+}
+ 
+ 
+table thead th {
+    background-color: #333;  
+    color: white;            
+    padding: 10px;            
+    border: 1px solid #444;  
+}
+ 
+ 
+table tbody td {
+    padding: 10px;            
+    border: 1px solid #ddd;  
+}
+ 
+ 
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4f4;
+}
+ 
+table tbody tr:nth-child(even) {
+    background-color: #fff;    
+}
+ 
+ 
+table tbody tr:hover {
+    background-color: #eaeaea;
+}
+ 
+ 
+table {
+    text-align: center;
+}
+
+.normal{
+    font-style: normal;
+    font-size: 16px;
+    font-family: Arial,sans-serif;
+}
+
+a:link{
+	color:blue;
+	text-decoration:underline;	
+}
+a:visited{
+	color:gray;
+}
+a:hover{
+	color:red;
+	text-decoration:none;	
+}
+a:active, a:focus{
+	color:green;
+}
+img{
+    width: 150px;
+    object-fit: cover;
+   }
+div{
+    width: 200 px;
+   
+    border: 2px,black;
+}
